@@ -1,0 +1,7 @@
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_aa_mat\true_labels_aa.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_al_mat\true_labels_al.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_av_mat\true_labels_av.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_aw_mat\true_labels_aw.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_ay_mat\true_labels_ay.mat
+
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\C\true_labels .mat

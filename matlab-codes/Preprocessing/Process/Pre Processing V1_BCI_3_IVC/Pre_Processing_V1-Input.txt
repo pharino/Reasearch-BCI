@@ -1,0 +1,2 @@
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\C\data_set_IVc_100Hz_test.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\C\data_set_IVc_100Hz_train.mat

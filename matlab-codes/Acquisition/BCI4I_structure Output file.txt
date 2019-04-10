@@ -1,0 +1,4 @@
+D:\CHUM Pharino Master 2011-2013\Master 2011-2013\Research Paper\Database\Raw data with structure\BCI IV\I\BCICIV_calib_ds1a_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Master 2011-2013\Research Paper\Database\Raw data with structure\BCI IV\I\BCICIV_calib_ds1b_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Master 2011-2013\Research Paper\Database\Raw data with structure\BCI IV\I\BCICIV_calib_ds1f_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Master 2011-2013\Research Paper\Database\Raw data with structure\BCI IV\I\BCICIV_calib_ds1g_100Hz.mat

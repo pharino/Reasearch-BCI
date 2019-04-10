@@ -1,0 +1,5 @@
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\A\data_set_IVa_aa_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\A\data_set_IVa_al_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\A\data_set_IVa_av_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\A\data_set_IVa_aw_100Hz.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw data with structure\BCI III\IV\A\data_set_IVa_ay_100Hz.mat

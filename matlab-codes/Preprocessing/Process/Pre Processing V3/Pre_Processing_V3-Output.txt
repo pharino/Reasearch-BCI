@@ -1,0 +1,3 @@
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Preprocessing data\Preprocessing V3\BCI_III_IIIA_k3b.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Preprocessing data\Preprocessing V3\BCI_III_IIIA_k6b.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Preprocessing data\Preprocessing V3\BCI_III_IIIA_l1b.mat

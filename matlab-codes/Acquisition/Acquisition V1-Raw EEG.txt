@@ -1,0 +1,7 @@
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_aa_mat\100Hz\data_set_IVa_aa.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_al_mat\100Hz\data_set_IVa_al.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_av_mat\100Hz\data_set_IVa_av.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_aw_mat\100Hz\data_set_IVa_aw.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\A\data_set_IVa_ay_mat\100Hz\data_set_IVa_ay.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\C\data_set_IVb_100Hz_train.mat
+D:\CHUM Pharino Master 2011-2013\Research Paper\Database\Raw dataset\BCI III\IV\C\data_set_IVb_100Hz_test.mat

@@ -1,0 +1,66 @@
+function [ eeg_matrix_output ] = spf_laplacian(type,eeg_matrix_input,clab_matrix,number_neighbor)
+%%  spf_laplacian(eeg_matrix,eeg_info,k)
+%   Input:
+%       - type:'big' or 'small' Laplace filter type
+%       - eeg_matrix_input: [m X n], m is number of sample, n is number of
+%       channels
+%       - clab_matrix: [3 X n], cell matrix include electrode name and its XY values 
+%       - number_neighbor: number of nearest neighbors in laplacian filter,
+%       usually 4.
+%   Output:
+%       - eeg_matrix_output: [m X n], filtered EEG matrix
+%
+%%  Find the nearest index and distance matrix
+[euclidean_distance index_nearest] = find_nearest(clab_matrix);
+%%  Layer level of Laplacian filter
+if strcmp(type,'Small Laplace')
+    ly = 0;
+elseif strcmp(type,'Large Laplace')
+    ly = 1;
+end
+%%  Laplace filter 
+for i = 1:length(index_nearest)
+    %   Center electrode EEG signal
+    eeg_center      = eeg_matrix_input(:,i);
+    %   Index of its neighbor electrode
+    index_neighbor  = index_nearest((2*ly*number_neighbor+2):(number_neighbor*(2*ly+1)+1),i);
+    %   Extract neighbor EEG signals and distance
+    for k = 1:number_neighbor
+        eeg_neighbor(:,k)       = eeg_matrix_input(:,index_neighbor(k));
+        distance_neighbor(k)    = euclidean_distance(index_neighbor(k),i);
+    end
+    %   Caculate weight
+    weight_neighbor = (1./distance_neighbor)/(sum((1./distance_neighbor)));
+    %   Multiply neighbors with it weight
+    for k = 1:number_neighbor
+        eeg_neighbor(:,k)       = weight_neighbor(k).*eeg_neighbor(:,k);
+    end
+    %%  substract center EEG signal with sum of it neighbors
+    eeg_matrix_output(:,i)      =   eeg_center - sum(eeg_neighbor,2);
+end
+%%  Find the nearest electrode according to 
+    function [euclidean_distance index_nearest] = find_nearest(clab_matrix )
+        %   eeg_electrode_distance(clab_matrix )
+        %   Input:  clab_matrix [3 X n] matrix, 1 clab name, 2 x-postion, 3 y-position
+        %   Output: matrix_distance[n X n], column is center electrodes
+        clab_size = size(clab_matrix);
+        %%  XY postion matrix of clab
+        for i = 1:clab_size(2)
+            xy(1,i) = clab_matrix{2,i};
+            xy(2,i) = clab_matrix{3,i};
+        end
+        %%  Calculate the distance matrix
+        for i = 1:1:clab_size(2)
+            %   Current handels electrode
+            electrode_center = xy(:,i);
+            for j = 1:1:clab_size(2)
+                %   Current near by handles electrode
+                electrode_next  = xy(:,j);
+                %   Euclidean distance
+                euclidean_distance(j,i) = distance(electrode_center',electrode_next');
+            end
+            %   Sort each column increasing
+            [distance_nearest(:,i) index_nearest(:,i)] = sortrows(euclidean_distance(:,i));
+        end
+    end
+end

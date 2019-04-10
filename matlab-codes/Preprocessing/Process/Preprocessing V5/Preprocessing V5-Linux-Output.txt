@@ -1,0 +1,9 @@
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIII-IVa-aa.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIII-IVa-al.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIII-IVa-av.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIII-IVa-aw.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIII-IVa-ay.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIV-calib-ds1a.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIV-calib-ds1b.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIV-calib-ds1f.mat
+/media/pharino/Research Data/CHUM Pharino Master 2011-2013/Research Paper/EEG Database/Preprocessing data/Preprocessing V5/BCICIV-calib-ds1g.mat
